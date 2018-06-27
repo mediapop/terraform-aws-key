@@ -1,5 +1,5 @@
 data "external" "external" {
-  program = ["./generate.sh", "${pathexpand(var.path)}"]
+  program = ["${join("", list(path.module, "/generate.sh"))}", "${pathexpand(var.path)}"]
 }
 
 resource "aws_key_pair" "key" {
