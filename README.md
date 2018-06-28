@@ -29,6 +29,7 @@ resource "aws_instance" "instance" {
 | Name | Description | Type |
 |------|-------------|:----:|
 | name | The AWS key name | string |
+| private_key_path | Where the private key is located | string |
 
 ## License
 

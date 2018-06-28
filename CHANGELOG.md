@@ -1,3 +1,9 @@
+# 0.1.2
+
+ENHANCEMENTS:
+
+* Output the private key path.
+
 # 0.1.1
 
 BUG FIXES:
