@@ -6,14 +6,13 @@ Simplest way of putting a SSH key pair on AWS.
 
 # Usage
 
-
 ```hcl
 module "key" {
   source = "mediapop/key/aws"
 }
 
 resource "aws_instance" "instance" {
-  key_name = "${module.key.name}"
+  key_name = module.key.name
   // ...
 }
 ```

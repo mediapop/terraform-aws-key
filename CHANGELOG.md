@@ -1,3 +1,7 @@
+# 0.2.0
+
+* Upgraded to support terraform >= 0.13
+
 # 0.1.2
 
 ENHANCEMENTS:
